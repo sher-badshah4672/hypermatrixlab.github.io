@@ -14,7 +14,7 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
-groups: [staff, support, admin, affiliated]
+groups: [staff]
 staff:
   title: Research Staff
   people:
@@ -86,86 +86,7 @@ staff:
       description: External PhD student (2023–), Fraunhofer IMW
       website: https://elenasenger.netlify.app/
       picture: elena.jpg
-    - name: Joris Baan
-      description: Affiliated ELLIS PhD student (2021–), University of Amsterdam
-      website: https://jorisbaan.nl/
-      picture: joris.jpg
-support:
-  title: Support Staff
-  people:
-    - name: Oliver Kraus
-      description: Scientific programmer (2024–)
-      picture: mainlp-logo-500.png
-    - name: Anyi Wang (2024-)
-      description: Student assistant (2023–)
-      picture: mainlp-logo-500.png
-    - name: Sebastian Loftus
-      description: Student assistant (2023–)
-      picture: sebastian.jpg
-    - name: Chengzhi Hu
-      description: Student assistant (2023–)
-      picture: chengzhi.png
-    - name: Miriam Winkler
-      description: Student assistant (2023–)
-      picture: miriam.jpg
-    - name: Zihang Sun
-      description: Student assistant (2023–)
-      picture: zihang.png
-    - name: Huangyan Shan
-      description: Student assistant (2023–)
-      picture: huangyan.jpg
-admin:
-  title: Administrative Staff
-  people:
-    - name: Paravee Jungbauer
-      description: Assistant
-      picture: paravee.jpg
-    - name: Karl Ischebeck
-      description: IT technician, system administrator
-      picture: karl.jpg
-affiliated:
-  title: Affiliated members (e.g. co-supervisors, co-supervised or mentored external PhD students, guest researchers and visitors)
-  people:
-    - name: Rob van der Goot
-      description: Associate professor at ITU Copenhagen, co-supervisor
-      website: https://robvanderg.github.io/
-      picture: rob.jpg
-    - name: Raquel Fernández
-      description: Full Professor at University of Amsterdam, co-supervisor
-      website: https://staff.fnwi.uva.nl/r.fernandezrovira/
-      picture: raquel.png
-    - name: Wilker Aziz
-      description: Assistant Professor at University of Amsterdam, co-supervisor
-      website: https://wilkeraziz.github.io/
-      picture: wilker.png
-    - name: Anna Korhonen
-      description: Full professor at University of Cambridge, co-supervisor
-      website: https://sites.google.com/site/annakorhonen/
-      picture: annak.jpg
-    - name: Saif M. Mohammad
-      description: Senior Research Scientist at the National Research Council Canada (NRC)
-      website: https://www.saifmohammad.com/
-      picture: saif.png
-    - name: Bolei Ma
-      description: External co-supervised PhD student, LMU
-      website: https://www.stat.lmu.de/soda/en/team/contact-page/bolei-ma-c9505de7.html
-      picture: bolei.png
-    - name: Shengqiang Zhang
-      description: External co-supervised PhD student, LMU
-      website: https://shengqiang-zhang.github.io/
-      picture: shengqiang.jpg
-    - name: Patrick Schwabl
-      description: External mentored PhD student, Department of Media and Communication, LMU Munich
-      website: https://patschw.github.io/
-      picture: patrick.jpg
-    - name: Shanshan Xu
-      description: External mentored PhD student, Legal Tech group, Technical University of Munich
-      website: https://sxu3.github.io/
-      picture: shanshan.jpeg
-    - name: Cornelia Gruber
-      description: External mentored PhD student, Institute of Statistics, LMU
-      picture: cg.jpg
-      website: https://www.en.wisostat.statistik.uni-muenchen.de/personen/doktoranden/gruber/index.html
+
 ---
 
 Welcome!
@@ -175,10 +96,6 @@ In broad terms, our aim is human-facing NLP: to make NLP models more robust and 
 
 <div class="projects">
   <h2 class="category">News</h2>
-<!--   <ul>
-    
-  </ul> -->
-<!-- <h3 style="font-size: 1rem; font-weight: bolder;">Events</h3> -->
   <ul>
     <li>August 14, 2024: Barbara gave a <a href="https://2024.aclweb.org/program/keynotes/">keynote at ACL 2024</a> in Bangkok this year</li>
     <li>July 10, 2024: We co-organized a panel on <a href="https://mainlp.github.io/iclave12/">embracing variability in natural language processing</a> at ICLaVE|12</li>
@@ -217,74 +134,15 @@ To <a href="/events-archive/">earlier events</a> at MaiNLP.
             </h2>
             <div class="card-text">
               {{person.description}}
-              <!-- <p style="margin-bottom: 0rem;">{{person.description}}</p> 
-              <ul class="network-icon" aria-hidden="true">
-              {% if person.website -%}
-                <li><a href="{{person.website}}"><i class="fas fa-globe"></i></a></li>
-              {%- endif -%}
-              {% if person.email -%}
-                <li><a role="button" class="email" style="color: var(--global-theme-color)"><i class="fas fa-envelope"></i></a></li>
-              {%- endif -%}
-              {% if person.googlescholar -%}
-                <li><a href="{{person.googlescholar}}"><i class="ai ai-google-scholar"></i></a></li>
-              {%- endif -%}
-              {% if person.github -%}
-                <li><a href="{{person.github}}"><i class="fab fa-github"></i></a></li>
-              {%- endif -%}
-              {% if person.twitter -%}
-                <li><a href="{{person.twitter}}"><i class="fab fa-twitter"></i></a></li>
-              {%- endif -%}
-            </ul>
-            {% if person.email -%}
-              <div class="email hidden">
-                <p>{{ person.email }}</p>
-              </div>
-            {%- endif -%} -->
-              </div>
+            </div>
             </div>
           </article>
       {%- endfor -%}
     </div>
   {%- endfor -%}
 
-  <h2 class="category">Support staff and student assistants for teaching</h2>
-   <ul>
-    <li>Ercong Nie (2022–2024)</li>
-    <li>Zonggen Li (2023–2024)</li>
-    <li>Kaiwei Lei (2024-)</li>
-    <li>Yurui Zhang (2024–)</li>
-    <li>Pingjun Hong (2024–)</li>
-    <li>Longfei Zuo (2024–)</li>
-    <li>Yuchen Mao (2024–)</li>
-  </ul>
-  
   <h2 class="category">You?</h2>
   Join us! <a href="/jobs">→Open positions</a>
-  
- <h2 class="category">MaiNLP alumni</h2>
-  <ul>
-    <li><a href="https://mxij.me/">Max Müller-Eberstein</a> (PhD student ITU, 2020–2024), now postdoc at IT University of Copenhagen</li>
-    <li><a href="https://elisabassignana.github.io/">Elisa Bassignana</a> (PhD student ITU, 2020–2024), now postdoc at IT University of Copenhagen</li>
-    <li><a href="https://scholar.google.com/citations?user=OKbS2VAAAAAJ">Leon Weber-Genzel</a> (postdoc, 2022–2024), now in industry</li>
-    <li><a href="https://jjzha.github.io/">Mike Zhang</a> (PhD student ITU, 2020–2024), now postdoc at Aalborg University, Copenhagen</li>
-    <li>Jian Lan (PhD student, 2023–2024)</li>
-    <li><a href="https://dteodore.github.io/">Daniela Teodorescu</a> (PhD student, 2023–2024)</li>
-    <li><a href="https://mariabarrett.github.io/">Maria Barrett</a> (postdoc ITU, 2020–2023), now at Silo AI</li>
-    <li>Katya Artemova (postdoc, 2022–2023), now at Toloka AI</li>
-    <li>Sondre Wold (visiting PhD student, University of Oslo, 2024)</li>
-    <li>Elena Lloret Pastor (visiting Professor, University of Alicante, 2024)</li>
-    <li>Kassem Sabeh (visiting PhD student, Free University of Bozen-Bolzano, 2024)</li>
-    <li>Simone Ciciliano (visiting MA student, Free University of Bozen-Bolzano, 2024)</li>
-    <li>Alberto Muñoz-Ortiz (visiting PhD student, Universidade da Coruña, 2023)</li>
-    <li>Barbara Kovačić (student assistant, 2023–2024)</li>
-    <li>Ivo S. Bueno Júnior (student assistant, 2023–2024)</li>
-    <li>Yang Sun (student assistant, 2023–2024)</li>
-    <li>Marie Kolm (student assistant, 2023)</li>
-    <li>Sif Dam Sonniks (student assistant, 2022–2023)</li>
-    <li><a href="https://www.stat.lmu.de/soda/en/team/contact-page/bolei-ma-c9505de7.html">Bolei Ma</a> (student assistant, 2022–2023), now PhD student at LMU</li>
-    <li>Anna Barwig (student assistant, 2022–2023)</li>
-    <li>Chaeeun Lee (student assistant, 2022–2023)</li>
-  </ul>
 
   <h2 class="category">MaiNLP resources and code</h2>
   You can find resources (data, code, repositories) released by MaiNLP lab members <a href="https://github.com/mainlp/">on our github page</a> and <a href="https://huggingface.co/mainlp">on our huggingface page</a>
