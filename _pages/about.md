@@ -2,13 +2,17 @@
 layout: about
 title: Home
 permalink: /
-subtitle:
+subtitle: 
 
-profile:
-  align: right
-  image: mainlp-logo-500.png
-  image_circular: false
-  address:
+banner:
+  image: cs_building.jpg 
+  alt_text: "Dalhousie University, Faculty of Computer Science Building"
+
+# profile:
+#   align: right
+#   image: hyper_matrix.png
+#   image_circular: true
+#   address:
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -18,99 +22,69 @@ groups: [staff]
 staff:
   title: Research Staff
   people:
-    - name: Barbara Plank
-      description: Prof. Dr. and Chair for AI and Computational Linguistics, Head of MaiNLP and Co-director CIS
-      website: https://bplank.github.io/
-      picture: barbara.jpg
-    - name: Diego Frassinelli
-      description: Dr., Lecturer
-      website: https://www.cis.uni-muenchen.de/personen/mitarbeiter/frassinelli/index.html
-      picture: mainlp-logo-500.png
-    - name: Michael A. Hedderich
-      description: Junior Research Group Leader
-      website: https://www.michael-hedderich.de/
-      picture: michael.jpg
-    - name: Silvia Casola
-      description: Postdoc (2024–)
-      website: https://scholar.google.it/citations?user=h6Nw1QIAAAAJ
-      picture: mainlp-logo-500.png
-    - name: Yang Janet Liu
-      description: Postdoc (2024–)
-      website: https://janetlauyeung.github.io/
-      picture: janet.png
-    - name: Siyao (Logan) Peng
-      description: Postdoc (2023–)
-      website: https://logan-siyao-peng.github.io/
-      picture: logan.jpeg
-    - name: Robert Litschko
-      description: Postdoc (2022–)
-      website: https://rlitschk.github.io/
-      picture: robert.png
-    - name: Andreas Säuberli
-      description: PhD student (2024–)
-      website: https://saeub.github.io/
-      picture: mainlp-logo-500.png
-    - name: Felicia Körner
-      description: ELLIS PhD student (2024–)
-      website: https://koernerfelicia.github.io/
-      picture: felicia.JPG
-    - name: Florian Eichin
-      description: PhD student (2024–)
-      website: https://florian-eichin.com/
-      picture: florian.png
-    - name: Soh-Eun (Ryan) Shim
-      description: PhD student (2024–)
-      website: https://www.cis.lmu.de/personen/mitarbeiter/soheunshim/index.html
-      picture: mainlp-logo-500.png
-    - name: Shijia Zhou
-      description: PhD student (2024–)
-      website: https://scholar.google.com/citations?user=Byl83QwAAAAJ
-      picture: shijia.jpg
-    - name: Beiduo Chen
-      description: ELLIS PhD student (2024–)
-      website: https://mckysse.github.io/
-      picture: beiduo.jpg
-    - name: Philipp Mondorf
-      description: PhD student (2023–)
-      website: https://pmmon.github.io/
-      picture: philipp.jpg
-    - name: Xinpeng Wang
-      description: PhD student (2022–)
-      website: https://xinpeng-wang.github.io/
-      picture: xinpeng.jpg
-    - name: Verena Blaschke
-      description: PhD student (2022–)
-      website: https://verenablaschke.github.io/
-      picture: verena.png
-    - name: Elena Senger
-      description: External PhD student (2023–), Fraunhofer IMW
-      website: https://elenasenger.netlify.app/
-      picture: elena.jpg
+    - name: Hassan Sajjad
+      description: Prof. Dr. and Head of HyperMatrix
+      website: https://hsajjad.github.io/
+      picture: hassan.png
+    - name: David Arps
+      description: PhD student
+      website: https://davidarps.github.io/
+      picture: david.jpeg
+    - name: Domenic Rosati
+      description: PhD student
+      website: https://domenicrosati.github.io/
+      picture: domenic.jpg
+    - name: Hamad Rizwan
+      description: PhD student
+      website: https://scholar.google.com/citations?user=vERBCLMAAAAJ&hl=en
+      picture: hamad.jpeg
+    - name: Jinkun Chen
+      description: PhD student
+      website: https://jinkunchen.com/
+      picture: jinkun.jpeg
+    - name: Sher Badshah
+      description: PhD student
+      website: https://web.cs.dal.ca/~badshah/
+      picture: sher.jpeg
+    - name: Xuemin Yu
+      description: PhD student
+      website: https://xueminyu.com/
+      picture: xuemin.png
+    - name: Manpreet Singh
+      description: Master student
+      website: https://www.linkedin.com/in/manpreet-singh-52b2271ab
+      picture: manpreet.png
+
+sponsors:
+  - name: Faculty of Computer Science, Dalhousie University
+    website: https://www.dal.ca/faculty/computerscience.html
+    logo: dal.png
+  - name: Natural Sciences and Engineering Research Council of Canada (NSERC)
+    website: https://www.nserc-crsng.gc.ca/
+    logo: nserc.png
+  - name: Research Nova Scotia
+    website: https://researchns.ca/
+    logo: research_ns.png
+  - name: MITACS
+    website: https://www.mitacs.ca/?hsLang=en
+    logo: mitacs.png
 
 ---
 
 Welcome!
-We are the Munich AI & NLP (MaiNLP, pronounced "myNLP") research lab at the [Center for Information and Language Processing (CIS)](https://www.cis.lmu.de/), LMU Munich, directed by [Prof. Dr. Barbara Plank](https://bplank.github.io/).
-We carry out research in Natural Language Processing, an interdisciplinary subdiscipline of Artificial Intelligence at the interface of computer science, linguistics and cognitive science.
-In broad terms, our aim is human-facing NLP: to make NLP models more robust and inclusive, so that they can deal better with underlying shifts in data due to language variation, are fairer and embrace human label variation.
+We are the HyperMatrix research lab at Dalhousie University, Halifax, Canada, directed by [Prof. Hassan Sajjad](https://hsajjad.github.io/). We conduct cutting-edge research in Artificial Intelligence, focusing on Natural Language Processing, Deep Learning, and Safe and Trustworthy AI.
+
+Our mission is to advance the field of AI by making models that are not only powerful but also transparent, safe, and aligned with social needs. Our research interests include language generation, interpretability, explainability, generalization, robustness, and model editing—all with the aim of developing trustworthy AI systems.
 
 <div class="projects">
   <h2 class="category">News</h2>
-  <ul>
-    <li>August 14, 2024: Barbara gave a <a href="https://2024.aclweb.org/program/keynotes/">keynote at ACL 2024</a> in Bangkok this year</li>
-    <li>July 10, 2024: We co-organized a panel on <a href="https://mainlp.github.io/iclave12/">embracing variability in natural language processing</a> at ICLaVE|12</li>
-    <li>July 5, 2024: Max successfully defended his PhD thesis. Congratulations!</li>
-    <li>July 1, 2024: Elisa successfully defended her PhD thesis. Congratulations!</li>
-    <li>May 13, 2024: On-site <a href="/events/#2024-05-13-matthias-orlikowski">talk</a> by Matthias Orlikowski (Bielefeld University)</li>
-    <li>May 6, 2024: On-site <a href="/events/#2024-05-06-russa-biwas">talk</a> by Dr. Russa Biwas (Hasso-Plattner Institute, Potsdam)</li>
-    <li>April 30, 2024: Our new <a href="https://dialect-erc.github.io">DIALECT project</a> webpage is online</li>
-    <li>April 8, 2024: On-site <a href="/events/#2024-04-08-hyewon-jang">talk</a> by Hyewon Jang (University of Konstanz)</li>
-    <li>March 22, 2024: Interested in Uncertainty and NLP? We are part of the <a href="https://uncertainlp.github.io/">First Workshop on Uncertainty-aware NLP @ EACL 2024</a></li>
-    <li>March 7, 2024: Mike successfully defended his PhD thesis. Congratulations!</li>
-    <li>January 24, 2024: On-site <a href="/events/#2024-01-24-rob-van-der-goot">talk</a> by Dr. Rob van der Goot (IT University of Copenhagen)</li>
-  </ul>
-
-To <a href="/events-archive/">earlier events</a> at MaiNLP.
+    <li>Accepted Papers 2024: 2 conference papers (NAACL)</li>
+    <li>Accepted Papers 2023: 3 conference papers (Neurips, ICLR, ACL), 1 Journal (JMLR)</li>
+    <li>Neurips 2023: Evaluating Neuron Interpretation Methods of NLP Models</li>
+    <li>ICLR 2023: Learning Uncertainty for Unknown Domains with Zero-Target-Assumption</li>
+    <li>JMLR 2023: Discovering Salient Neurons in deep NLP models</li>
+    <li>ACL Demo 2023: NeuroX 2.0 Library for Neuron Analysis of Deep NLP Models</li>
+    <li>ACL findings 2023: Impact of Adversarial Training on Robustness and Generalizability of Language Models</li>
 
 {%- for group in page.groups -%}
 
@@ -121,7 +95,7 @@ To <a href="/events-archive/">earlier events</a> at MaiNLP.
             {% if person.picture -%}
               <img class="avatar" src="/assets/img/{{person.picture}}" alt="Portrait ({{person.name}})" width="auto" height="auto">
             {%- else -%}
-              <img class="avatar" src="/assets/img/mainlp-logo-500.png" alt="Portrait ({{person.name}})" width="auto" height="auto">
+              <img class="avatar" src="/assets/img/hyper_matrix.png" alt="Portrait ({{person.name}})" width="auto" height="auto">
             {%- endif -%}
           <div class="card-body">
             <!-- <h2 class="card-title">{{person.name}}</h2> -->
@@ -141,36 +115,40 @@ To <a href="/events-archive/">earlier events</a> at MaiNLP.
     </div>
   {%- endfor -%}
 
-  <h2 class="category">You?</h2>
-  Join us! <a href="/jobs">→Open positions</a>
-
-  <h2 class="category">MaiNLP resources and code</h2>
-  You can find resources (data, code, repositories) released by MaiNLP lab members <a href="https://github.com/mainlp/">on our github page</a> and <a href="https://huggingface.co/mainlp">on our huggingface page</a>
+  <!-- <h2 class="category">Join Our Team</h2>
+  Join us! <a href="/jobs">→Open positions</a> -->
 
   <h2 class="category">Organizations</h2>
+    Our research is supported by:
+  <div class="sponsors">
+    {%- for sponsor in page.sponsors -%}
+      <div class="sponsor-item">
+        <a href="{{ sponsor.website }}" target="_blank">
+          <img src="/assets/img/{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo">
+        </a>
+      </div>
+    {%- endfor -%}
+  </div>
+
+  <h2 class="category">HyperMatrix resources and code</h2>
+  You can find resources (data, code, repositories) released by HyperMatrix lab members <a href="https://github.com/hypermatrixlab">on our github page</a>
+
+  <!-- <h2 class="category">Organizations</h2>
   Our research is supported by:
   <ul>
-    <li><a href="https://erc.europa.eu/homepage">European Research Council (ERC)</a> project <a href="https://mainlp.github.io/projects/#ongoingproj">DIALECT</a></li>
-    <li><a href="https://dff.dk/en">Danmarks Frie Forskningsfond (DFF)</a>, Sapere Aude Research Leader grant</li>
-    <li><a href="https://www.bayern.de/politik/hightech-agenda/">Bayerische Staatsregierung HTA</a></li>
-    <li><a href="https://mcml.ai/">Munich Center for Machine Learning (MCML)</a></li>
-    <li><a href="https://www.bidt.digital/">Bayerisches Forschungsinstitut für Digitale Transformation (bidt)</a></li>
-  </ul>
-
-We are also part of:
-
-  <ul>
-    <li><a href="https://ellis.eu/programs/natural-language-processing">ELLIS Europe NLP Program</a></li>
-    <li><a href="https://www.ellismunich.ai/">ELLIS Unit Munich</a></li>
-  </ul>
+    <li><a href="https://www.dal.ca/faculty/computerscience.html">Faculty of Computer Science, Dalhousie University</a></li>
+    <li><a href="https://www.innovation.ca/">Canada Foundation for Innovation (CFI)</a></li>
+    <li><a href="https://www.nserc-crsng.gc.ca/">Natural Sciences and Engineering Research Council of Canada (NSERC)</a></li>
+    <li><a href="https://researchns.ca/">Research Nova Scotia</a></li>
+    <li><a href="https://www.mitacs.ca/?hsLang=en">MITACS</a></li>
+  </ul> -->
 
  <!-- TODO <img src="MCML_Logo.jpg" alt="MCML logo"/> -->
 
   <h2 class="category">Find us</h2>
-  We are located at Akademiestraße 7, 80799 Munich, Germany (<a href="https://mainlp.github.io/contact/">→ directions</a>).<br/>
-
-<a href="https://github.com/mainlp"><i class="fab fa-github"></i> MaiNLP</a><br/>
-<a href="https://twitter.com/MaiNLPlab"><i class="fab fa-twitter"></i> MaiNLPlab</a><br/>
-<a href="https://twitter.com/CisLMU"><i class="fab fa-twitter"></i> CisLMU</a>
+  We are located at 6050 University Ave, Halifax, NS B3H 1W5 (<a href="/contact">→ directions</a>).<br/>
+<a href="https://www.dal.ca/faculty/computerscience.html"><i class="fa fa-university" aria-hidden="true"></i> Faculty of Computer Science, Dalhousie University, Halifax, NS</a><br/>
+<a href="https://github.com/hypermatrixlab"><i class="fab fa-github"></i> HyperMatrix</a><br/>
+<a href="https://twitter.com/hassaan84s"><i class="fab fa-twitter"></i> Hassan Sajjad</a>
 
 </div>

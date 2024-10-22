@@ -3,8 +3,8 @@ layout: page
 permalink: /projects/
 title: Projects
 description: 
-nav: true
-nav_order: 5
+nav: false
+nav_order: 2
 ---
 
 Content: 

@@ -28,7 +28,7 @@ Table of contents:
 (This is optional.)
 
 1. Install [Ruby and Jekyll](https://jekyllrb.com/docs/installation/#guides).
-2. Clone the rep: `git clone git@github.com:mainlp/mainlp.github.io.git` and navigate to the corresponding directory.
+2. Clone the rep: `git clone git@github.com:HyperMatrix/HyperMatrix.github.io.git` and navigate to the corresponding directory.
 3. Run `bundle install` to install all dependencies.
 4. To build the site locally, run `bundle exec jekyll serve` and open [http://localhost:4000](http://localhost:4000).
 
@@ -50,16 +50,16 @@ If you make changes to the markdown, HTML, CSS, etc. files, you only need to ref
 
 ## Adding lab members
 
-Edit [_pages/about.md](https://github.com/mainlp/mainlp.github.io/blob/main/_pages/about.md) and add the following to one of the staff sections:
+Edit [_pages/about.md](https://github.com/HyperMatrix/HyperMatrix.github.io/blob/main/_pages/about.md) and add the following to one of the staff sections:
 
 ```
     - name: The Name
       description: job title, date
       website: example.com [remove this line if there's no website]
-      picture: mainlp-logo-150.png [or replace with name.jpg]
+      picture: HyperMatrix-logo-150.png [or replace with name.jpg]
 ```
 
-To include a picture name.jpg, add it to [assets/img](https://github.com/mainlp/mainlp.github.io/tree/main/assets/img).
+To include a picture name.jpg, add it to [assets/img](https://github.com/HyperMatrix/HyperMatrix.github.io/tree/main/assets/img).
 
 To add a new staff section, add its name to the groups list towards the top of the page (`groups: [staff, support, admin, affiliated]`), and then define the new section like, e.g., `staff` is defined:
 
@@ -72,7 +72,7 @@ newgroup:
     picture: name.jpg
 ```
 
-## Adding events
+<!-- ## Adding events
 
 Add a new markdown file `YYYY-MM-DD-short-description.md` to `_events`. This is done most easily by altering a copy of an existing event description. Event descriptions consist simply of YAML frontmatter:
 
@@ -93,7 +93,7 @@ anchor: YYYY-MM-DD-short-description [same as in file name]
 ---
 ```
 
-The location link can be, for instance, to the relevant [LMU room finder](https://www.lmu.de/raumfinder/#/) page.
+The location link can be, for instance, to the relevant [LMU room finder](https://www.lmu.de/raumfinder/#/) page. -->
 
 ## Adding Publications
 
@@ -111,11 +111,11 @@ You can add up to 2 highlighted publications which will be shown at the top of t
  - url
  - author
  - booktitle
- - **image**: add the filename (just filename, not the full path) here of the image that should be displayed together with the publication. Place your images under **/assets/img/publications/**. You can use the MaiNLP logo as a default by just adding image = "default.png"
+ - **image**: add the filename (just filename, not the full path) here of the image that should be displayed together with the publication. Place your images under **/assets/img/publications/**. You can use the HyperMatrix logo as a default by just adding image = "default.png"
 
 ## Adding a new page
 
-Add a new markdown file to [_pages](https://github.com/mainlp/mainlp.github.io/tree/main/_pages).
+Add a new markdown file to [_pages](https://github.com/HyperMatrix/HyperMatrix.github.io/tree/main/_pages).
 It needs to have a YAML header like so:
 ```
 ---
@@ -132,8 +132,8 @@ And then the actual content can follow.
 
 ## Adding new plug-ins
 
-1. Add the plug-in to the `plugins` list in [_config.yml](https://github.com/mainlp/mainlp.github.io/blob/main/_config.yml).
-2. Add it to the [Gemfile](https://github.com/mainlp/mainlp.github.io/blob/main/Gemfile).
+1. Add the plug-in to the `plugins` list in [_config.yml](https://github.com/HyperMatrix/HyperMatrix.github.io/blob/main/_config.yml).
+2. Add it to the [Gemfile](https://github.com/HyperMatrix/HyperMatrix.github.io/blob/main/Gemfile).
 3. Install it:
 ```
 gem install gem-name-here
@@ -143,8 +143,8 @@ bundle install
 ## GitHub security alerts
 
 GitHub might occasionally have security alerts concerning the dependencies (currently not a problem since we don't specify the version numbers in our Gemfile at the moment -- this might change in case we need to manually handle version conflicts). Usually, it will suggest a Dependabot PR that immediately solves the issue.
-If there's no Dependabot PR, you can typically generate one via the repo's [security tab](https://github.com/mainlp/mainlp.github.io/security). 
-You can also do this by hand: add the code suggested by the security alert (`gem "gem-name-here", ">= version.number.here"`) to the [Gemfile](https://github.com/mainlp/mainlp.github.io/blob/main/Gemfile) and update `Gemfile.lock` by running
+If there's no Dependabot PR, you can typically generate one via the repo's [security tab](https://github.com/HyperMatrix/HyperMatrix.github.io/security). 
+You can also do this by hand: add the code suggested by the security alert (`gem "gem-name-here", ">= version.number.here"`) to the [Gemfile](https://github.com/HyperMatrix/HyperMatrix.github.io/blob/main/Gemfile) and update `Gemfile.lock` by running
 ```
 gem install gem-name-here
 gem update gem-name-here

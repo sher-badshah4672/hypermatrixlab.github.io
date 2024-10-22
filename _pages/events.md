@@ -3,7 +3,7 @@ layout: page
 permalink: /events/
 title: Events
 description: 
-nav: true
+nav: false
 nav_order: 5
 ---
 Subscribe to our mailing list [here](https://lists.lrz.de/mailman/listinfo/lmu-cis-mainlp-events).
